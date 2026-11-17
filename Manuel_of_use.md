@@ -154,7 +154,3 @@ The **Predicted vs actual** and **Residuals** tabs show where the best model mak
 | "No usable feature columns" | Every other column was skipped (identifiers, constants, text with text columns turned off). |
 | One-hot encoding refused | The column has more than 50 categories. Drop it, ordinal-encode it, or let the model pages encode it automatically. |
 | Results differ from version 1 | Version 1 trained on 20% of the rows without scaling. The new numbers are more reliable. |
-
-## Credits
-
-Based on the original illustrated manual (`Manuel_of_use.pdf`) by Abdelmajid Benjelloun and Mohammed Aachabi, supervised by Sanae KHALI ISSA, 2023–2024. The PDF describes version 1 of the interface.
